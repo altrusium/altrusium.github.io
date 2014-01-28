@@ -1,4 +1,4 @@
 altrusium.com
 ===================
 
-The Altrusium website
+The website for Altrusium Software
