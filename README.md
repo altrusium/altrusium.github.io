@@ -1,4 +1,4 @@
-altrusium.github.io
+altrusium.com
 ===================
 
 The Altrusium website
