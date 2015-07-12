@@ -91,6 +91,7 @@
 	=========================== */
   $(window).on('scroll.myProgress', function () {
     // Get Position Progress Bar
+    if ($('#progress').length < 1) return
     var p_progress = $('#progress').offset().top
     var h_window = $(window).height()
     var get_scroll_progress = p_progress - h_window

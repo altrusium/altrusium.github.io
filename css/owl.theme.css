@@ -56,13 +56,13 @@
 
 #our-client .owl-controls div.owl-prev,
 #owl-testimoni .owl-controls div.owl-prev{
-	top:100%;
+	top:110%;
 	left:-157px;
 }
 
 #our-client .owl-controls div.owl-next,
 #owl-testimoni .owl-controls div.owl-next{
-	top:100%;
+	top:110%;
 	left:-110px;
 }
 

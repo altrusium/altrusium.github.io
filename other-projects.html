@@ -29,6 +29,9 @@
     <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/owl.transitions.css" rel="stylesheet">
 	
+	<!-- Colorbox -->
+    <link href="css/colorbox/colorbox.css" rel="stylesheet">
+	
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -74,7 +77,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="services.html">Services</a></li>
-						<li class="dropdown">
+						<li class="dropdown active">
 							<a href="portfolio-alt1.html" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="portfolio-alt1.html">Portfolio alt1</a></li>
@@ -84,7 +87,7 @@
 								<li><a href="portfolio-detail.html">Portfolio detail</a></li>
 							</ul>
 						</li>
-						<li class="dropdown active">
+						<li class="dropdown">
 							<a href="blog-leftsidebar.html" class="dropdown-toggle" data-toggle="dropdown" role="button">Blog <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="blog-leftsidebar.html">Blog left sidebar</a></li>
@@ -183,14 +186,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h2 class="title-innerheading">BLOG</h2>
-					<i class="fa fa-calendar fa-inner"></i>
+					<h2 class="title-innerheading">Portfolio</h2>
+					<i class="fa fa-image fa-inner"></i>
 				</div>
 				<div class="col-md-6 text-right">
 					<ol class="breadcrumb">
 					  <li><a href="#">Home</a></li>
-					  <li><a href="#">Blog</a></li>
-					  <li class="active">Blog alt 1</li>
+					  <li><a href="#">Portfolio</a></li>
+					  <li class="active">Portfolio alt1</li>
 					</ol>
 				</div>
 			</div>
@@ -200,238 +203,121 @@
 	
 	<div class="clearfix"></div>
 	
-	<!-- Start Blog -->
-	<div class="half-column">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+	<!-- Start gallery -->
+	<section class="gallery-wrapper">
+		<!-- Start aside heading -->
+		<div class="aside-container on-left">
+			<!-- Start gallery filter  -->
+			<ul class="filter-items">
+				<li class="active"><span class="filter-label">All</span></li>
+				<li><span class="filter-label" data-filter=".web">Web</span></li>
+				<li><span class="filter-label" data-filter=".graphic">Graphic</span></li>
+				<li><span class="filter-label" data-filter=".logo">Logo</span></li>
+				<li><span class="filter-label" data-filter=".photo">Photos</span></li>
+				<li><span class="filter-label" data-filter=".icons">Icons</span></li>
+			</ul>
+			<!-- End gallery filter -->
+			<div class="aside-wrapper">
+				<h3>Portfolio <span></span></h3>
+				<p>Our work done</p>
+			</div>
+			<!-- Pagination -->
+			<ul class="pagination">
+				<li><a href="#"><span>&laquo;</span></a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#"><span>&raquo;</span></a></li>
+			</ul>
+			<!-- End Pagination -->
+		</div>
+		<!-- End aside heading -->
 					
-					<!-- Start half container -->
-					<div class="half-container on-right content">
-						<!-- Start article 01 -->
-						<article>
-							<div class="col-md-6">
-								<div class="img-post">
-									<div class="meta-post">
-										<ul>
-											<li><i class="fa fa-user fa-primary"></i> John doe</li>
-											<li><i class="fa fa-calendar fa-primary"></i> 04/06/15</li>
-											<li><i class="fa fa-comments fa-primary"></i> 3 comments</li>
-										</ul>
-									</div>
-									<img src="img/blog/thumbnail/thumb01.jpg" class="img-responsive" alt="" />
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="article-post">
-									<h5><a href="#">Quo te legere vituperata nibh iracundia</a></h5>
-									<p>
-									Nam laudem consulatu id, sumo quidam compreh ensam sed ut. Legendos assentior sed id, etiam debet constituam ius in  vim odio posse doctus cu.
-									</p>
-									<a href="#" class="btn btn-primary">Read more</a>
-								</div>
-							</div>
-						</article>
-						<!-- End article 01 -->
-						
-						<!-- Start article 02 -->
-						<article>
-							<div class="col-md-6">
-								<div class="img-post">
-									<div class="meta-post">
-										<ul>
-											<li><i class="fa fa-user fa-primary"></i> John doe</li>
-											<li><i class="fa fa-calendar fa-primary"></i> 04/06/15</li>
-											<li><i class="fa fa-comments fa-primary"></i> 3 comments</li>
-										</ul>
-									</div>
-									<img src="img/blog/thumbnail/thumb02.jpg" class="img-responsive" alt="" />
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="article-post">
-									<h5><a href="#">No mei affert nusquam meis euripidis nec ea.</a></h5>
-									<p>
-									Nam laudem consulatu id, sumo quidam compreh ensam sed ut. Legendos assentior sed id, etiam debet constituam ius in vim odio posse doctus cu.
-									</p>
-									<a href="#" class="btn btn-primary">Read more</a>
-								</div>
-							</div>
-						</article>
-						<!-- End article 02 -->
-						
-						<!-- Start article 03 -->
-						<article>
-							<div class="col-md-6">
-								<div class="img-post">
-									<div class="meta-post">
-										<ul>
-											<li><i class="fa fa-user fa-primary"></i> John doe</li>
-											<li><i class="fa fa-calendar fa-primary"></i> 04/06/15</li>
-											<li><i class="fa fa-comments fa-primary"></i> 3 comments</li>
-										</ul>
-									</div>
-									<img src="img/blog/thumbnail/thumb03.jpg" class="img-responsive" alt="" />
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="article-post">
-									<h5><a href="#">Mel errem facilisis te in alia option pro.</a></h5>
-									<p>
-									Nam laudem consulatu id, sumo quidam compreh ensam sed ut. Legendos assentior sed id, etiam debet constituam ius in  vim odio posse doctus cu.
-									</p>
-									<a href="#" class="btn btn-primary">Read more</a>
-								</div>
-							</div>
-						</article>
-						<!-- End article 03 -->
-						
-						<!-- Start article 01 -->
-						<article>
-							<div class="col-md-6">
-								<div class="img-post">
-									<div class="meta-post">
-										<ul>
-											<li><i class="fa fa-user fa-primary"></i> John doe</li>
-											<li><i class="fa fa-calendar fa-primary"></i> 04/06/15</li>
-											<li><i class="fa fa-comments fa-primary"></i> 3 comments</li>
-										</ul>
-									</div>
-									<img src="img/blog/thumbnail/thumb01.jpg" class="img-responsive" alt="" />
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="article-post">
-									<h5><a href="#">Quo te legere vituperata nibh iracundia</a></h5>
-									<p>
-									Nam laudem consulatu id, sumo quidam compreh ensam sed ut. Legendos assentior sed id, etiam debet constituam ius in  vim odio posse doctus cu.
-									</p>
-									<a href="#" class="btn btn-primary">Read more</a>
-								</div>
-							</div>
-						</article>
-						<!-- End article 01 -->
-						
-						<!-- Pagination -->
-						<ul class="pagination">
-							<li><a href="#"><span>&laquo;</span></a></li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#"><span>&raquo;</span></a></li>
-						</ul>
-						<!-- End Pagination -->
+		<!-- Start gallery container -->
+		<div class="gallery-container">
+			<div id="freewall" class="free-wall">
+				<div class="brick size2 img-wrapper web graphic">
+					<div class="img-caption">
+						<a href="img/gallery/img01.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
 					</div>
-					<!-- End half container -->
-					
-					<!-- Start aside heading -->
-					<div class="aside-container on-right sidebar">
-											
-						<!-- Categories -->
-						<div class="widget">
-							<h3 class="title-widget">Categories</h3>
-							<ul class="category">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">Graphic</a></li>
-								<li><a href="#">Photosop</a></li>
-								<li><a href="#">Illustrator</a></li>
-							</ul>
-						</div>
-						<!-- End Categories -->
-						
-						<!-- Sidebar Post -->
-						<div class="widget">
-							<h3 class="title-widget">Popular Post</h3>
-							
-							<!-- Post -->
-							<div class="media sidebar-post">
-							  <div class="media-left">
-								<a href="#">
-								  <img class="media-object" src="img/blog/thumbnail/thumb01.jpg" alt="">
-								</a>
-							  </div>
-							  <div class="media-body">
-								<h6 class="media-heading">
-									<a href="#">Sanctus voluptua eu per, ex sit audiam petentium</a>
-								</h6>
-							  </div>
-							</div>
-							<!-- End Post -->
-							
-							<!-- Post -->
-							<div class="media sidebar-post">
-							  <div class="media-left">
-								<a href="#">
-								  <img class="media-object" src="img/blog/thumbnail/thumb02.jpg" alt="">
-								</a>
-							  </div>
-							  <div class="media-body">
-								<h6 class="media-heading">
-									<a href="#">Cu zril euismod interesset eam suavitate scribentur</a>
-								</h6>
-							  </div>
-							</div>
-							<!-- End Post -->
-							
-							<!-- Post -->
-							<div class="media sidebar-post">
-							  <div class="media-left">
-								<a href="#">
-								  <img class="media-object" src="img/blog/thumbnail/thumb03.jpg" alt="">
-								</a>
-							  </div>
-							  <div class="media-body">
-								<h6 class="media-heading">
-									<a href="#">Eos quot aliquando ne nonu my tacima tes mnesa</a>
-								</h6>
-							  </div>
-							</div>
-							<!-- End Post -->
-							
-							<!-- Post -->
-							<div class="media sidebar-post">
-							  <div class="media-left">
-								<a href="#">
-								  <img class="media-object" src="img/blog/thumbnail/thumb01.jpg" alt="">
-								</a>
-							  </div>
-							  <div class="media-body">
-								<h6 class="media-heading">
-									<a href="#">Dico eruditi  usu per case movet maiorum accumsan</a>
-								</h6>
-							  </div>
-							</div>
-							<!-- End Post -->
-							
-						</div>
-						<!-- End Sidebar Post -->
-						
-						<!-- Tags -->
-						<div class="widget">
-							<h3 class="title-widget">TAGS</h3>
-							<ul class="tags">
-								<li><a href="#">Icon</a></li>
-								<li><a href="#">Logo</a></li>
-								<li><a href="#">Web</a></li>
-								<li><a href="#">Design</a></li>
-								<li><a href="#">Graphic</a></li>
-								<li><a href="#">PSD</a></li>
-								<li><a href="#">Landing Page</a></li>
-								<li><a href="#">Photography</a></li>
-								<li><a href="#">Marketing</a></li>
-							</ul>
-						</div>
-						<!-- End Tags -->
+					<img src="img/gallery/img01.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size3 img-wrapper graphic logo">
+					<div class="img-caption">
+						<a href="img/gallery/img02.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
 					</div>
-					<!-- End aside heading -->
+					<img src="img/gallery/img02.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size1 img-wrapper logo photo">
+					<div class="img-caption">
+						<a href="img/gallery/img03.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img03.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size1 img-wrapper photo icons">
+					<div class="img-caption">
+						<a href="img/gallery/img04.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img04.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size3 img-wrapper logo">
+					<div class="img-caption">
+						<a href="img/gallery/img06.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img06.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size2 img-wrapper logo web">
+					<div class="img-caption">
+						<a href="img/gallery/img05.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img05.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size3 img-wrapper logo">
+					<div class="img-caption">
+						<a href="img/gallery/img08.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img08.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size2 img-wrapper logo web">
+					<div class="img-caption">
+						<a href="img/gallery/img07.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img07.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size2 img-wrapper logo web">
+					<div class="img-caption">
+						<a href="img/gallery/img09.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img09.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size2 img-wrapper logo web">
+					<div class="img-caption">
+						<a href="img/gallery/img10.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img10.jpg" class="img-maxwidth" alt="" />
+				</div>
+				<div class="brick size2 img-wrapper logo web">
+					<div class="img-caption">
+						<a href="img/gallery/img11.jpg" class="zoom colorbox"><i class="fa fa-search"></i></a>
+						<a href="portfolio-detail.html" class="link"><i class="fa fa-link"></i></a>
+					</div>
+					<img src="img/gallery/img11.jpg" class="img-maxwidth" alt="" />
 				</div>
 			</div>
-		</div>				
-		<div class="sparator-color on-right"></div>
-	</div>
-	<!-- End Blog -->
+		</div>
+		<!-- End gallery container -->
+	</section>
+	<!-- End gallery -->
 	
 	<div class="clearfix"></div>
 	
@@ -543,6 +429,14 @@
 	<!-- Sticky -->
 	<script src="js/sticky/jquery.sticky.js"></script>
 	<script src="js/sticky/setting.js"></script>
+	
+	<!-- colorbox -->
+	<script src="js/colorbox/jquery.colorbox-min.js"></script>
+	<script src="js/colorbox/setting.js"></script>
+	
+	<!-- masonry -->
+	<script src="js/freewall/freewall.js"></script>	
+	<script src="js/freewall/setting.js"></script>
 	
 	<!-- JavaScript totop -->
 	<script src="js/totop/jquery.ui.totop.js"></script>	
