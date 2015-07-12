@@ -1,0 +1,202 @@
+/* ==============================================================
+
+Template name : Korra - Clean and modern bootstrap template v1.0.0
+Categorie : Site template
+Author : Nce18cex
+Version : v1.0.0
+Created : 07 June 2015
+Last update : 30 June 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Color
+02. Background color
+03. Border color
+04. 2 color
+	
+============================================================== */
+
+/*
+Color
+=========================== */
+a,
+a:hover,
+a:focus,
+.right-link li,
+.text-light,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .dropdown.active .dropdown-toggle:hover
+.navbar-default .navbar-nav > .dropdown .dropdown-toggle:hover,
+.navbar-default .navbar-nav > .dropdown .dropdown-toggle:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.yamm-link li a:hover,
+.yamm-link li a:focus,
+.aside-container h3,
+.panel-title a.active,
+.panel-title a.active:hover,
+.panel-title a.active:focus,
+.fa-primary,
+footer ul.link-list li a:hover,
+.social-network li a:hover,
+article h5 a:hover,
+.filter-items li.active span,
+.filter-items li span:hover,
+.filter-items li span:active,
+.filter-items li span:focus,
+.img-caption span,
+ul.category li a:hover,
+.sidebar-post .media-body .media-heading a:hover,
+ul.pagination li a:hover,
+.comments .media-body .media-heading  a.pull-right,
+.validation,
+.price span,
+.product-info h6 a:hover,
+.aside-shop .widget ul.product-list li a:hover,
+.aside-shop .widget ul.product-list li a:focus,
+.aside-shop .widget ul.product-list li a:active,
+div.jp-type-playlist div.jp-playlist a:hover,
+.recent-product li h6 a:hover,
+.item-title a:hover,
+ul.slides li .wrap-slide h3 span{
+	color:#0fbef7;
+}
+
+/*
+Background color
+=========================== */
+.btn-primary,
+.progress-bar,
+.heading span,
+.primary-section,
+.sparator-line,
+.aside-container h3 span,
+.btn-search,
+.service-btn,
+.owl-theme .owl-controls .owl-buttons div.owl-prev:hover,
+.owl-theme .owl-controls .owl-buttons div.owl-next:hover,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.btn-started a:hover,
+.btn-play a:hover,
+.inner-heading,
+ul.tags li a:hover,
+.btn-cart,
+#toTopHover,
+.sale,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current,
+.remove:hover{
+	background-color:#0fbef7;
+}
+
+blockquote span.quote{
+	background-color:rgba(15, 190, 247, 0.3);
+}
+
+/*
+Border color
+=========================== */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus ,
+.navbar-default .navbar-nav > .dropdown.active .dropdown-toggle:hover
+.navbar-default .navbar-nav > .dropdown .dropdown-toggle:hover,
+.navbar-default .navbar-nav > .dropdown .dropdown-toggle:focus,
+.form-control:focus,
+.btn-primary,
+.aside-gray,
+.subscribe:focus,
+.btn-started a:hover,
+ul.circle-list li span,
+ul.circle-list li span i,
+ul.timeline li,
+.zoom:hover,
+.link:hover,
+.filter-items li.active span,
+.filter-items li span:hover,
+.filter-items li span:active,
+.filter-items li span:focus,
+ul.tags li a:hover,
+ul.pagination li a:hover,
+.tab-content,
+.price-item .panel:hover,
+.price-item.popular .panel,
+.aside-shop .widget .tags li a:hover,
+.recent-product li:hover a img,
+.recent-product li a:hover img,
+.product-wrapper:hover{
+	border-color:#0fbef7;
+}
+
+
+/*
+2 color
+=========================== */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-search:hover,
+.btn-cart:hover{
+	background-color:#28caff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active{
+	border-color:#28caff;
+}
